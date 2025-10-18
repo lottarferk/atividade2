@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* Reseta todos os estilos */
 * {
     margin: 0;
@@ -16,13 +15,13 @@ body {
 header {
     background-image: linear-gradient(to bottom, #ffa72c, #dc9025);
     color: white;
-    padding: 10px 0;
+    padding: 16px 0;
     
 }
 span#burguer {
     font-size: 40px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 16px;
     display: block;
     text-align: center;
 }
@@ -41,7 +40,7 @@ header h1 {
 
 nav {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 16px;
     background-color: transparent;
     display: none;
 }
@@ -49,7 +48,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 8px;
     font-weight: bold;
     font-size: 18px;
 }
@@ -57,7 +56,7 @@ nav a {
 nav a:hover {
     background-color: #ffd9a3;
     color: #333;
-    padding: 5px 10px;
+    padding: 8px 8px;
     border-radius: 5px;
     transition: background-color 0.5s, color 0.5s;
 }
@@ -69,7 +68,7 @@ main {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        padding: 250px 20px;
+        padding: 240px 0;
     }
 
     #sobre {
@@ -146,11 +145,11 @@ footer {
 
 h2#cadastro {
     text-align: center;
-    margin: 20px 0;
+    margin: 16px 0;
     font-size: 32px;
     color: #333;
     
-    padding: 10px;
+    padding: 24px 0;
     background-color: #fff;
     border-radius: 8px;
     max-width: 600px;
@@ -172,7 +171,7 @@ form {
 form fieldset {
     border: 1px solid #ddd;
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 16px;
     border-radius: 8px;
 }
 
