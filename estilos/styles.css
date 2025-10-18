@@ -65,7 +65,7 @@ nav a:hover {
 main {
     
     #banner {
-        background-image: url('imagens/banner-full.webp');
+        background-image: url('../imagens/banner-full.webp');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
