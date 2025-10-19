@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <!--Junta o HTML com CSS-->
     <link rel="stylesheet" href="estilos/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
     <body>
@@ -88,13 +88,14 @@
 
             <script>
                 // Máscara para CPF
-                document.getElementById('cpf').addEventListener('input', function (e) {
-                    let value = e.target.value.replace(/\D/g, '');
-                    if (value.length > 11) value = value.slice(0, 11);
-                    value = value.replace(/(\d{3})(\d)/, '$1.$2');
-                    value = value.replace(/(\d{3})(\d)/, '$1.$2');
-                    value = value.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
-                    e.target.value = value;
+                document.getElementById('cpf').addEventListener('input', function (e)
+                     {
+                     let value = e.target.value.replace(/\D/g, '');
+                     if (value.length > 11) value = value.slice(0, 11);
+                     value = value.replace(/(\d{3})(\d)/, '$1.$2');
+                     value = value.replace(/(\d{3})(\d)/, '$1.$2');
+                     value = value.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
+                     e.target.value = value;
                 });
 
                 // Máscara para Telefone
